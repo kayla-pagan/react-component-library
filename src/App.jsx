@@ -2,7 +2,7 @@ import React from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import Menu from './components/Menu/index'
-
+import Button from './components/Button/Button'
 
 function App() {
 
@@ -18,7 +18,18 @@ function App() {
       <Menu>
         <Menu.Button>Badges</Menu.Button>
         <Menu.Dropdown>
-          <Menu.Item>A badge</Menu.Item>
+          <Menu.Item>
+            <Button className="button-default">Badge</Button>
+          </Menu.Item>
+          <Menu.Item>
+          <Button className="button-default" shape="pill" variant="red">Badge</Button>
+          </Menu.Item>
+          <Menu.Item>
+          <Button className="button-default" variant="yellow">Badge</Button>
+          </Menu.Item>
+          <Menu.Item>
+            <Button className="button-default" variant="blue" shape="pill">Badge</Button>
+          </Menu.Item>
         </Menu.Dropdown>
       </Menu>
 

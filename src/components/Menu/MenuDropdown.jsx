@@ -7,7 +7,7 @@ export default function MenuDropdown({children}){
     return (
         <>
             {open ? (
-                <div>
+                <div className="menu-dropdown">
                     {children}
                 </div>
             ) : null
