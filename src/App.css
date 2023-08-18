@@ -38,13 +38,19 @@
 }
 
 .menu {
-  width: 20em;
   height: auto;
   margin: 0 auto 1em auto;
 }
 
 .menu > button {
-  width: 100%;
+  width: 20em;
+}
+
+.menu-dropdown {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  gap: 1em;
+  padding-block: 1em;
 }
 
 .button-default {
