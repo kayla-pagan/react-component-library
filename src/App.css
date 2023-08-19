@@ -69,24 +69,29 @@
   border-radius: 12px;
 }
 
-.button-red, .error {
+.button-red, .banner-error {
   background: #FEE2E2;
   color: #991B1B;
 }
 
-.button-yellow, .warning {
+.button-yellow, .banner-warning {
   background: #FEF3C7;
   color: #92400E;
 }
 
-.button-green, .success {
+.button-green, .banner-success {
   background: #D1FAE5;
   color: #065F46;
 }
 
-.button-blue, .update {
+.button-blue, .banner-update {
   background: #DBEAFE;
   color: #1E40AF;
+}
+
+.update svg {
+  fill: #60A5FA;
+  color: transparent;
 }
 
 .button-indigo {
@@ -102,4 +107,15 @@
 .button-pink {
   background: #FCE7F3;
   color: #9D174D;
+}
+
+.banner {
+  height: 1.25em;
+  padding: 1em;
+}
+
+.banner h4 {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
 }

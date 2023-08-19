@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Menu from './components/Menu/index'
 import Button from './components/Button/Button'
+import Banner from './components/Banner/Banner'
 
 function App() {
 
@@ -36,7 +37,18 @@ function App() {
       <Menu>
         <Menu.Button>Banners</Menu.Button>
         <Menu.Dropdown>
-          <Menu.Item>A Banner</Menu.Item>
+          <Menu.Item>
+            <Banner variant="success"></Banner>
+          </Menu.Item>
+          <Menu.Item>
+            <Banner variant="warning"></Banner>
+          </Menu.Item>
+          <Menu.Item>
+            <Banner variant="error"></Banner>
+          </Menu.Item>
+          <Menu.Item>
+            <Banner variant="update"></Banner>
+          </Menu.Item>
         </Menu.Dropdown>
       </Menu>
 
