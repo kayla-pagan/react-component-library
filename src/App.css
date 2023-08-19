@@ -130,10 +130,16 @@
 }
 
 .banner h4 {
+  font-size: .8rem;
   margin: 0;
   padding: 0;
   line-height: 1.375;
   display: flex;
   align-items: center;
   gap: 0.75em;
+}
+
+.testimonial {
+  height: 25em;
+  padding: 6em;
 }
