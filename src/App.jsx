@@ -18,7 +18,7 @@ function App() {
       
       <Menu>
         <Menu.Button>Badges</Menu.Button>
-        <Menu.Dropdown>
+        <Menu.Dropdown className="button-grid">
           <Menu.Item>
             <Button className="button-default">Badge</Button>
           </Menu.Item>
