@@ -69,22 +69,22 @@
   border-radius: 12px;
 }
 
-.button-red {
+.button-red, .error {
   background: #FEE2E2;
   color: #991B1B;
 }
 
-.button-yellow {
+.button-yellow, .warning {
   background: #FEF3C7;
   color: #92400E;
 }
 
-.button-green {
+.button-green, .success {
   background: #D1FAE5;
   color: #065F46;
 }
 
-.button-blue {
+.button-blue, .update {
   background: #DBEAFE;
   color: #1E40AF;
 }
