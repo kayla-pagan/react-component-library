@@ -38,16 +38,16 @@ function App() {
         <Menu.Button>Banners</Menu.Button>
         <Menu.Dropdown>
           <Menu.Item>
-            <Banner variant="success"></Banner>
+            <Banner variant="success" title="Congratulations!"></Banner>
           </Menu.Item>
           <Menu.Item>
-            <Banner variant="warning"></Banner>
+            <Banner variant="warning" title="Attention"></Banner>
           </Menu.Item>
           <Menu.Item>
-            <Banner variant="error"></Banner>
+            <Banner variant="error" title="There is a problem with your application"></Banner>
           </Menu.Item>
           <Menu.Item>
-            <Banner variant="update"></Banner>
+            <Banner variant="update" title="Update available"></Banner>
           </Menu.Item>
         </Menu.Dropdown>
       </Menu>
