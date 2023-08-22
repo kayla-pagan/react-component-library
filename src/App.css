@@ -124,13 +124,13 @@
 }
 
 .banner {
-  height: 1.25em;
+  min-height: 1.25em;
   padding: 1em;
   border-radius: 6px;
+  font-size: .8rem;
 }
 
 .banner h4 {
-  font-size: .8rem;
   margin: 0;
   padding: 0;
   line-height: 1.375;
@@ -138,9 +138,18 @@
   align-items: center;
   gap: 0.75em;
 }
+.banner p {
+  margin: 0;
+  padding-left: 1.75em;
+  text-align: left;
+}
 
 .testimonial {
-  height: 25em;
-  padding: 6em;
+  height: 8em;
+  padding: 4em;
   background-color: #F9FAFB;
+}
+
+.transparent {
+  background: transparent;
 }

@@ -2,18 +2,18 @@ import React from "react"
 import classNames from "classnames"
 import { FaCircleCheck, FaCircleInfo, FaCircleXmark, FaTriangleExclamation } from "react-icons/fa6"
 
-export default function Banner({variant, children, className, title, ...rest}){
+export default function Banner({status, children, className, title, ...rest}){
     let message
-    let variantClass = variant && `banner-${variant}`
-    const allClasses = classNames(className, variantClass)
+    let statusClass = status && `banner-${status}`
+    const allClasses = classNames(className, statusClass)
     
-    if(variant == "success"){
+    if(status == "success"){
         message =  <h4> <FaCircleCheck /> {title}</h4>
     }
-    else if(variant == "warning"){
+    else if(status == "warning"){
         message =  <h4> <FaTriangleExclamation /> {title}</h4>
     }
-    else if(variant == "error"){
+    else if(status == "error"){
         message =  <h4> <FaCircleXmark /> {title}</h4>
     }
     else {
@@ -24,7 +24,7 @@ export default function Banner({variant, children, className, title, ...rest}){
     return (
         <div className={`banner ${allClasses}`} {...rest}>
             {message}
-            {children}
+            {children && <p>{children}</p>}
         </div>
     )
 }

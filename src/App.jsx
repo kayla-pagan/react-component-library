@@ -4,6 +4,7 @@ import './App.css'
 import Menu from './components/Menu/index'
 import Button from './components/Button/Button'
 import Banner from './components/Banner/Banner'
+import Testimonial from './components/Testimonial/Testimonial'
 
 function App() {
 
@@ -38,16 +39,20 @@ function App() {
         <Menu.Button>Banners</Menu.Button>
         <Menu.Dropdown>
           <Menu.Item>
-            <Banner variant="success" title="Congratulations!"></Banner>
+            <Banner status="success" title="Congratulations!"></Banner>
           </Menu.Item>
           <Menu.Item>
-            <Banner variant="warning" title="Attention"></Banner>
+            <Banner status="warning" title="Attention">
+              Random info about this warning.
+            </Banner>
           </Menu.Item>
           <Menu.Item>
-            <Banner variant="error" title="There is a problem with your application"></Banner>
+            <Banner status="error" title="There is a problem with your application"></Banner>
           </Menu.Item>
           <Menu.Item>
-            <Banner variant="update" title="Update available"></Banner>
+            <Banner status="update" title="Update available">
+              Information about the update that is available
+            </Banner>
           </Menu.Item>
         </Menu.Dropdown>
       </Menu>
@@ -55,7 +60,9 @@ function App() {
       <Menu>
         <Menu.Button>Testimonials</Menu.Button>
         <Menu.Dropdown>
-          <Menu.Item>A Testimonial</Menu.Item>
+          <Menu.Item>
+            <Testimonial />
+          </Menu.Item>
         </Menu.Dropdown>
       </Menu>
 
