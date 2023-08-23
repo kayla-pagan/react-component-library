@@ -61,7 +61,11 @@ function App() {
         <Menu.Button>Testimonials</Menu.Button>
         <Menu.Dropdown>
           <Menu.Item>
-            <Testimonial />
+            <Testimonial>
+              “Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Nemo expedita voluptas culpa sapiente alias molestiae. 
+              Numquam corrupti in laborum sed rerum et corporis.”
+            </Testimonial>
           </Menu.Item>
         </Menu.Dropdown>
       </Menu>
