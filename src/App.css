@@ -145,9 +145,23 @@
 }
 
 .testimonial {
-  height: 8em;
+  min-height: 16em;
   padding: 4em;
   background-color: #F9FAFB;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial::before {
+  content: "";
+  position: absolute;
+  background-image: url('./assets/testimonial-pattern.svg');
+  background-size: cover;
+  width: 10em;
+  height: 12em;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .transparent {

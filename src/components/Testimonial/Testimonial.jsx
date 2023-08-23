@@ -1,6 +1,7 @@
 import React from "react"
 // import classNames from "classnames"
 import companyLogo from '../../assets/testimonial-logo.png'
+import testimonialPattern from '../../assets/testimonial-pattern.svg'
 
 export default function Testimonial({children, src, ...rest}){
     let testimonialBgClass = src && "transparent"
