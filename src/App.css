@@ -164,6 +164,11 @@
   z-index: 2;
 }
 
+.testimonial--content {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .transparent {
   background: transparent;
 }
