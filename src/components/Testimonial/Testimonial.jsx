@@ -1,10 +1,10 @@
 import React from "react"
 // import classNames from "classnames"
 import companyLogo from '../../assets/testimonial-logo.png'
-import testimonialPattern from '../../assets/testimonial-pattern.svg'
 
 export default function Testimonial({children, src, ...rest}){
     let testimonialBgClass = src && "transparent"
+    // if there is a src in props then make a flex row, if not then flex colomn.
     
     return (
         <div className={`testimonial ${testimonialBgClass}`}>
