@@ -10,7 +10,7 @@ export default function Testimonial({children, src, ...rest}){
             <div className="testimonial--container">
                 <div className="testimonial--content">
                     {src ? null : <img className="company-logo" src={companyLogo} />}
-                    {children}
+                    <p>{children}</p>
                 </div>
             </div>
         </div>
