@@ -8,10 +8,13 @@ export default function Testimonial({children, src, ...rest}){
     
     return (
         <div className={`testimonial ${testimonialBgClass}`}>
-            <div className="testimonial--container">
-                <div className="testimonial--content">
-                    {src ? null : <img className="company-logo" src={companyLogo} />}
-                    <p className="testimonial--text">{children}</p>
+            {/* {if there is a src prop put image here??} */}
+            <div className="testimonial--plate">
+                <div className="testimonial--container">
+                    <div className="testimonial--content">
+                        {src ? null : <img className="company-logo" src={companyLogo} />}
+                        <p className="testimonial--text">{children}</p>
+                    </div>
                 </div>
             </div>
         </div>
