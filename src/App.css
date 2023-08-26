@@ -197,12 +197,21 @@
   margin: 0 auto;
 }
 
+.testimonial--text {
+  margin-bottom: 0;
+}
+
 .testimonial--info {
   display: flex;
   align-items: center;
   gap: 0.8em;
   color: #6B7280;
   font-size: 1rem;
+}
+/* make this a column in mobile view */
+
+.testimonial--info p {
+  margin: 0;
 }
 
 .testimonial--info p:first-of-type,
