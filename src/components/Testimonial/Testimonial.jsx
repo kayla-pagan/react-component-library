@@ -4,7 +4,7 @@ import companyLogo from '../../assets/testimonial-logo.png'
 import quoteIcon from '../../assets/quote-icon.svg'
 
 export default function Testimonial({children, src, ...rest}){
-    let testimonialBgClass = src && "transparent"
+    let testimonialBgClass = src ? "testimonial--with-pic" : "testimonial--no-pic"
     let plateBgClass = src && "blue-bg"
     // if there is a src in props then make a flex row, if not then flex colomn.
     
