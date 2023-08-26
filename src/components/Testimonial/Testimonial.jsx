@@ -3,7 +3,7 @@ import React from "react"
 import companyLogo from '../../assets/testimonial-logo.png'
 import quoteIcon from '../../assets/quote-icon.svg'
 
-export default function Testimonial({children, src, ...rest}){
+export default function Testimonial({children, src, name, company, position, ...rest}){
     let testimonialBgClass = src ? "testimonial--with-pic" : "testimonial--no-pic"
     let plateBgClass = src && "blue-bg"
     // if there is a src in props then make a flex row, if not then flex colomn.
@@ -16,6 +16,11 @@ export default function Testimonial({children, src, ...rest}){
                         {src ? <img className="quote-icon" src={quoteIcon} /> 
                         : <img className="company-logo" src={companyLogo} />}
                         <p className="testimonial--text">{children}</p>
+                        <div className="testimonial--info">
+                            <p className="name">{name}</p>
+                            {!src && <span> / </span>}
+                            <p>{company}, {position}</p>
+                        </div>
                     </div>
                 </div>
             </div>

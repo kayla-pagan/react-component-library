@@ -197,6 +197,28 @@
   margin: 0 auto;
 }
 
+.testimonial--info {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  color: #6B7280;
+  font-size: 1rem;
+}
+
+.testimonial--info p:first-of-type,
+.testimonial--info span {
+  font-weight: bold;
+}
+
+.testimonial--info p:first-of-type {
+  color: #111827;
+}
+
+.testimonial--info span {
+  color: #2E59F3;
+}
+/* make this disappear with mobile view */
+
 .blue-bg {
   background-color: #2545B8;
 }
