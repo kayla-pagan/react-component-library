@@ -61,7 +61,7 @@ function App() {
         <Menu.Button>Testimonials</Menu.Button>
         <Menu.Dropdown>
           <Menu.Item>
-            <Testimonial>
+            <Testimonial name="May Andersons" company="Workcation" position="CTO">
               “Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Nemo expedita voluptas culpa sapiente alias molestiae. 
               Numquam corrupti in laborum sed rerum et corporis.”
