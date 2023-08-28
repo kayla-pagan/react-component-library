@@ -189,6 +189,10 @@
   line-height: 1.5;
 }
 
+.testimonial--no-pic p {
+  max-width: 690px;
+}
+
 .testimonial--no-pic div span {
   display: none;
 }
@@ -254,11 +258,6 @@
     align-items: center;
     gap: 0.5em;
   }
-
-  .testimonial--no-pic div {
-    max-width: 690px;
-  }
-
   .testimonial--no-pic div span {
     display: block;
     color: #2E59F3;
