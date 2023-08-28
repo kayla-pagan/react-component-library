@@ -73,6 +73,7 @@ function App() {
               company="Workcation" 
               position="CTO"
               src={sampleImage}
+              alt="May Anderson smiling at the camera"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               Sed urna nulla vitae laoreet augue. Amet feugiat est integer 
