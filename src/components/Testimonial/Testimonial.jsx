@@ -15,20 +15,26 @@ export default function Testimonial({children, src, name, company, position, alt
         <>
             {src ? (
                     <div className="testimonial--with-pic">
-                        <div className="testimonial--headshot" style={srcStyle}></div>
+                        <div className="testimonial--headshot" aria-label={alt} style={srcStyle}></div>
                         <div className="testimonial--info">
                             <img src={quoteIcon} alt="Quotation mark" />
                             <p className="testimonial--text">{children}</p>
                             <div>
                                 <p><strong>{name}</strong></p>
-                                <p>{position}, {company}</p>
+                                <p>{company}, {position}</p>
                             </div>
                         </div>
                     </div>
                 ) :
                 (
                     <div className="testimonial--no-pic">
-
+                        <img src={companyLogo} />
+                        <p>{children}</p>
+                        <div>
+                            <p><strong>{name}</strong></p>
+                            <span>/</span>
+                            <p>{company}, {position}</p>
+                        </div>
                     </div>
                 )
             }
