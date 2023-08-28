@@ -9,11 +9,14 @@ export default function Testimonial({children, src, name, company, position, ...
     return (
         <>
         {src ? (
-            <div>
-            </div>
+                <div className="testimonial--with-pic">
+
+                </div>
             ) :
             (
-                <div></div>
+                <div className="testimonial--no-pic">
+
+                </div>
             )
         }
         </>
