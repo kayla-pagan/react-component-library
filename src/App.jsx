@@ -5,6 +5,7 @@ import Menu from './components/Menu/index'
 import Button from './components/Button/Button'
 import Banner from './components/Banner/Banner'
 import Testimonial from './components/Testimonial/Testimonial'
+import sampleImage from './assets/sample-testimonial-img.jpg'
 
 function App() {
 
@@ -65,6 +66,17 @@ function App() {
               “Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Nemo expedita voluptas culpa sapiente alias molestiae. 
               Numquam corrupti in laborum sed rerum et corporis.”
+            </Testimonial>
+
+            <Testimonial 
+              name="May Andersons" 
+              company="Workcation" 
+              position="CTO"
+              src={sampleImage}
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Sed urna nulla vitae laoreet augue. Amet feugiat est integer 
+              dolor auctor adipiscing nunc urna, sit. 
             </Testimonial>
           </Menu.Item>
         </Menu.Dropdown>
