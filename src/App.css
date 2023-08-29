@@ -65,7 +65,7 @@
   grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
 }
 
-/* badges */
+/* badges and banners */
 
 .button-default {
   background: #F3F4F6;
@@ -120,8 +120,8 @@
 }
 
 .button-indigo {
-  background: #FEF3C7;
-  color: #92400E;
+  background: #E0E7FF;
+  color: #3730A3;
 }
 
 .button-purple {
@@ -133,8 +133,6 @@
   background: #FCE7F3;
   color: #9D174D;
 }
-
-/* banner */
 
 .banner {
   min-height: 1.25em;

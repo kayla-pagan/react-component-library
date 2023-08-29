@@ -27,13 +27,13 @@ function App() {
             <Button className="button-default">Badge</Button>
           </Menu.Item>
           <Menu.Item>
-          <Button className="button-default" shape="pill" variant="red">Badge</Button>
+          <Button className="button-default" shape="pill" variant="pink">Badge</Button>
           </Menu.Item>
           <Menu.Item>
-          <Button className="button-default" variant="yellow">Badge</Button>
+          <Button className="button-default" variant="purple">Badge</Button>
           </Menu.Item>
           <Menu.Item>
-            <Button className="button-default" variant="blue" shape="pill">Badge</Button>
+            <Button className="button-default" variant="indigo" shape="pill">Badge</Button>
           </Menu.Item>
         </Menu.Dropdown>
       </Menu>
