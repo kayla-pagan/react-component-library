@@ -60,7 +60,7 @@ function App() {
 
       <Menu>
         <Menu.Button>Testimonials</Menu.Button>
-        <Menu.Dropdown>
+        <Menu.Dropdown className="testimonial">
           <Menu.Item>
             <Testimonial name="May Andersons" company="Workcation" position="CTO">
               “Lorem ipsum dolor sit amet consectetur adipisicing elit. 
