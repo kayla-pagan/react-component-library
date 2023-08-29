@@ -270,7 +270,7 @@
 .card::before {
   content: "";
   background-color: #F9FAFB;
-  height: 84%;
+  height: 83%;
   bottom: 0;
   left: 0;
   right: 0;

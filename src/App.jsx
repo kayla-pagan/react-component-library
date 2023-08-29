@@ -35,6 +35,12 @@ function App() {
           <Menu.Item>
             <Button className="button-default" variant="indigo" shape="pill">Badge</Button>
           </Menu.Item>
+          <Menu.Item>
+          <Button className="button-default" variant="green">Badge</Button>
+          </Menu.Item>
+          <Menu.Item>
+            <Button className="button-default" variant="yellow" shape="pill">Badge</Button>
+          </Menu.Item>
         </Menu.Dropdown>
       </Menu>
 
