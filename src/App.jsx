@@ -5,7 +5,9 @@ import Menu from './components/Menu/index'
 import Button from './components/Button/Button'
 import Banner from './components/Banner/Banner'
 import Testimonial from './components/Testimonial/Testimonial'
+import Card from './components/Card/Card'
 import sampleImage from './assets/sample-testimonial-img.jpg'
+import { FaCloudArrowUp } from "react-icons/fa6"
 
 function App() {
 
@@ -86,7 +88,16 @@ function App() {
       <Menu>
         <Menu.Button>Cards</Menu.Button>
         <Menu.Dropdown>
-          <Menu.Item>A card</Menu.Item>
+          <Menu.Item>
+            <Card icon={<FaCloudArrowUp />} title="Easy Deployment">
+              Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. 
+              Et magna sit morbi lobortis.
+            </Card>
+
+            <Card>
+              Add your desired icon and title as a prop and description as a child.
+            </Card>
+          </Menu.Item>
         </Menu.Dropdown>
       </Menu>
     </>
