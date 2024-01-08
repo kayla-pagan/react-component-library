@@ -14,5 +14,4 @@ the menu, where real-time state changes were crucial.
 By integrating these advanced techniques, I not only achieved a highly reusable and customizable menu component but also acquired a deeper understanding of React's core 
 principles. The project exemplified my commitment to adopting best practices, ensuring that my components are not only powerful but also adaptable to a wide range of scenarios.
 
-Please take a look at my deployed project here: 
-https://incredible-hummingbird-7d5eb0.netlify.app
+[Please take a look at my deployed project here](https://incredible-hummingbird-7d5eb0.netlify.app)
